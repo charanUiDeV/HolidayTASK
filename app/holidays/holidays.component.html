@@ -1,0 +1,12 @@
+
+<!-- <ul *ngFor="let key of Users" [routerLink]="['/holiday',key]">
+  <li>{{key}}</li> -->
+  
+<h3>List of Holiday dates</h3>
+<div class="button-row">
+  
+  <button *ngFor="let key of Users" mat-raised-button color="primary"  [routerLink]="['/holiday',key]">{{key}}</button> <br>
+  
+
+</div>
+
